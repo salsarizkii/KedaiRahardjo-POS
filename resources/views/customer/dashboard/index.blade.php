@@ -1,7 +1,7 @@
 @extends('customer.dashboard.body.main')
 
 @section('container')
-    <div class="h-screeno mx-4">
+    <div class="h-screeno mx-4 pb-32">
         <h1 class="text-2xl font-bold mb-4">Welcome to Kedai Rahardjo!</h1>
     <!-- Sliding Carousel -->
     <div x-data="{ 
@@ -99,22 +99,22 @@
         </a>
 
         <!-- Minuman -->
-        <div class="flex flex-col items-center justify-center bg-red-50 p-4 rounded-xl shadow-sm">
+        <a href="/menu/minuman" div class="flex flex-col items-center justify-center bg-red-50 p-4 rounded-xl shadow-sm hover:bg-red-100 transition">
           <img src="https://img.icons8.com/ios/50/FA5252/soda-cup.png" class="w-10 h-10" />
           <p class="text-red-600 mt-2 font-medium">Minuman</p>
-        </div>
+        </a>
 
         <!-- Snack -->
-        <div class="flex flex-col items-center justify-center bg-red-50 p-4 rounded-xl shadow-sm">
+        <a href="/menu/snack" class="flex flex-col items-center justify-center bg-red-50 p-4 rounded-xl shadow-sm hover:bg-red-100 transition">
           <img src="https://img.icons8.com/ios/50/FA5252/french-fries.png" class="w-10 h-10" />
           <p class="text-red-600 mt-2 font-medium">Snack</p>
-        </div>
+        </a>
 
         <!-- Paket -->
-        <div class="flex flex-col items-center justify-center bg-red-50 p-4 rounded-xl shadow-sm">
+        <a href="/menu/paket" class="flex flex-col items-center justify-center bg-red-50 p-4 rounded-xl shadow-sm hover:bg-red-100 transition">
           <img src="https://img.icons8.com/external-konkapp-detailed-outline-konkapp/64/FA5252/external-takeaway-cafe-konkapp-detailed-outline-konkapp.png" class="w-10 h-10" />
           <p class="text-red-600 mt-2 font-medium">Paket</p>
-        </div>
+        </a>
 
       </div>
     </div>
